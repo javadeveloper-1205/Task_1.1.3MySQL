@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
-//        UserDaoHibernateImpl userDaoHibernate = new UserDaoHibernateImpl();
+//        UserDaoHibernateImpl  userDaoHibernate = new UserDaoHibernateImpl();
 //        userDaoHibernate.createUsersTable();
 //        User user = new User("Greg", "Scott", (byte) 10);
 

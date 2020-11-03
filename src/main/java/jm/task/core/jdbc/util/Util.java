@@ -28,7 +28,7 @@ public class Util {
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null || sessionFactory.isClosed()) {
             try {
-                //Create registry
+                //Create   registry
 //                registry = new StandardServiceRegistryBuilder().configure().build();
                 Configuration configuration = new Configuration();
                 Properties properties = new Properties();
